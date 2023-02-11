@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.app{
+  align-items: center;
+  height: 100vh;
+  width: 1400px;
+  margin: auto;
+  color: #471147;
+}
+.heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px;
+  font-family: 'Roboto', sans-serif;
+}
+.main-heading{}
+.logo{
+  font-size:40px
+}
+.main-menu{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.action-button{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.login-button{}
+.trial-button{}
+.trial-button button{
+  padding: 20px;
+  border: 1px solid #471147;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #471147;
+}
+.trial-button button:hover {
+  
+  cursor: pointer;
+  background-color: #471147;
+  color: #fff;
+  border-radius: 8px;
+
+}
+.landing{
+  height: 100vh;
+  background-image: url("./assets/rct.jpg");
+  background-size: cover;
+}
+.landing-container{
+margin-left: 40px;
+}
+.landing-logo{
+  
+  margin-bottom: 40px;
+  padding-top: 260px;
+}
+.landing-logo h1{
+  font-family: 'Playfair Display', serif;
+}
+.landing-stmt{
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+.landing-btn{
+  margin-bottom: 30px;
+}
+.landing-btn button {
+  padding: 25px;
+  background-color: #471147;
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid #471147;
+}
+.landing-btn button:hover{
+  cursor: pointer;
+  background-color: #fff;
+  color: #471147;
+  border: 1px solid #471147;
+}
+.landing-stmt-sec{
+  font-family: 'Roboto', sans-serif;
+}
